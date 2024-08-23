@@ -68,7 +68,8 @@
       ```
       
 6. **Migrations for Your App**
-    ```
+    ```bash
+    # Ensure that these three commands are run without making any changes
     python manage.py migrate --fake myapp zero
     python manage.py makemigrations myapp
     python manage.py migrate myapp
