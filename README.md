@@ -56,7 +56,7 @@
 
     ```
 
-6. **Create the .env file in the root directory of the project, where manage.py and .env.sample are located** 
+5. **Create the .env file in the root directory of the project, where manage.py and .env.sample are located** 
     
       ```sql
       # Django database connection details
@@ -67,17 +67,17 @@
       DATABASE_PORT=port      
       ```
       
-7. **Migrations for Your App**
+6. **Migrations for Your App**
     ```
     python manage.py migrate --fake myapp zero
     python manage.py makemigrations myapp
     python manage.py migrate myapp
     ```
-8. **Model install**
-  - Ensure that phi3 model is install
-   `ollama run phi3`
+7. **Model install**
+   - Ensure that phi3 model is install
+     `ollama run phi3`
 
-9. **Rewrite data from django database**
+8. **Rewrite data from django database**
     ```
     python manage.py rewrite_properties
     ```
