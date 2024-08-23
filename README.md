@@ -38,7 +38,7 @@
         ├── myapp/
         │   ├── management/
         │   │   └── commands/
-        │   │       ├── rewrite_properties.py
+        │   │       └── rewrite_properties.py
         │   │
         │   ├── migrations/
         │   │
